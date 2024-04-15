@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"> <!-- Cambiado el idioma a español -->
 
 <head>
   <meta charset="UTF-8">
@@ -12,7 +12,7 @@
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
 
-  <form class="formulario">
+  <form id="formulario"> <!-- Cambiado el nombre de la clase a id -->
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
@@ -29,12 +29,11 @@
     <input type="submit">
   </form>
 
-  <div>
+  <div id="lista-de-invitados"> <!-- Agregado el id para la lista de invitados -->
     <h2>Lista de invitados</h2>
-
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
